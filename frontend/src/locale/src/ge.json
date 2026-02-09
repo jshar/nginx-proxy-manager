@@ -57,166 +57,181 @@
 		"defaultMessage": "შემოწმება და ჩართვა"
 	},
 	"access-list": {
-		"defaultMessage": "Список доступа"
+		"defaultMessage": "Access List"
 	},
 	"access-list.access-count": {
-		"defaultMessage": "{count} {count, plural, one {правило} few {правила} many {правил} other {правила}}"
+		"defaultMessage": "{count} {count, plural, one {Rule} other {Rules}}"
 	},
 	"access-list.auth-count": {
-		"defaultMessage": "{count} {count, plural, one {пользователь} few {пользователя} many {пользователей} other {пользователя}}"
+		"defaultMessage": "{count} {count, plural, one {User} other {Users}}"
 	},
 	"access-list.help-rules-last": {
-		"defaultMessage": "Если есть хотя бы одно правило, правило 'запретить всё' будет добавлено последним"
+		"defaultMessage": "When at least 1 rule exists, this deny all rule will be added last"
 	},
 	"access-list.help.rules-order": {
-		"defaultMessage": "Обратите внимание: разрешающие и запрещающие директивы применяются в порядке их определения."
+		"defaultMessage": "Note that the allow and deny directives will be applied in the order they are defined."
 	},
 	"access-list.pass-auth": {
-		"defaultMessage": "Передавать авторизацию на upstream-сервер"
+		"defaultMessage": "Pass Auth to Upstream"
 	},
 	"access-list.public": {
-		"defaultMessage": "Общедоступный"
+		"defaultMessage": "Publicly Accessible"
 	},
 	"access-list.public.subtitle": {
-		"defaultMessage": "Без аутентификации"
+		"defaultMessage": "No basic auth required"
+	},
+	"access-list.rule-source.placeholder": {
+		"defaultMessage": "192.168.1.100 or 192.168.1.0/24 or 2001:0db8::/32"
 	},
 	"access-list.satisfy-any": {
-		"defaultMessage": "Любое совпадение"
+		"defaultMessage": "Satisfy Any"
 	},
 	"access-list.subtitle": {
-		"defaultMessage": "{users} {users, plural, one {пользователь} few {пользователя} many {пользователей} other {пользователя}}, {rules} {rules, plural, one {правило} few {правила} many {правил} other {правила}} - создан: {date}"
+		"defaultMessage": "{users} {users, plural, one {User} other {Users}}, {rules} {rules, plural, one {Rule} other {Rules}} - Created: {date}"
 	},
 	"access-lists": {
-		"defaultMessage": "Списки доступа"
+		"defaultMessage": "Access Lists"
 	},
 	"action.add": {
-		"defaultMessage": "Добавить"
+		"defaultMessage": "Add"
 	},
 	"action.add-location": {
-		"defaultMessage": "Добавить маршрут"
+		"defaultMessage": "Add Location"
+	},
+	"action.allow": {
+		"defaultMessage": "Allow"
 	},
 	"action.close": {
-		"defaultMessage": "Закрыть"
+		"defaultMessage": "Close"
 	},
 	"action.delete": {
-		"defaultMessage": "Удалить"
+		"defaultMessage": "Delete"
+	},
+	"action.deny": {
+		"defaultMessage": "Deny"
 	},
 	"action.disable": {
-		"defaultMessage": "Выключить"
+		"defaultMessage": "Disable"
 	},
 	"action.download": {
-		"defaultMessage": "Скачать"
+		"defaultMessage": "Download"
 	},
 	"action.edit": {
-		"defaultMessage": "Изменить"
+		"defaultMessage": "Edit"
 	},
 	"action.enable": {
-		"defaultMessage": "Включить"
+		"defaultMessage": "Enable"
 	},
 	"action.permissions": {
-		"defaultMessage": "Разрешения"
+		"defaultMessage": "Permissions"
 	},
 	"action.renew": {
-		"defaultMessage": "Продлить"
+		"defaultMessage": "Renew"
 	},
 	"action.view-details": {
-		"defaultMessage": "Просмотреть сведения"
+		"defaultMessage": "View Details"
 	},
 	"auditlogs": {
-		"defaultMessage": "Журнал аудита"
+		"defaultMessage": "Audit Logs"
+	},
+	"auto": {
+		"defaultMessage": "Auto"
 	},
 	"cancel": {
-		"defaultMessage": "Отменить"
+		"defaultMessage": "Cancel"
 	},
 	"certificate": {
-		"defaultMessage": "Сертификат"
+		"defaultMessage": "Certificate"
 	},
 	"certificate.custom-certificate": {
-		"defaultMessage": "Сертификат"
+		"defaultMessage": "Certificate"
 	},
 	"certificate.custom-certificate-key": {
-		"defaultMessage": "Ключ сертификата"
+		"defaultMessage": "Certificate Key"
 	},
 	"certificate.custom-intermediate": {
-		"defaultMessage": "Промежуточный сертификат"
+		"defaultMessage": "Intermediate Certificate"
 	},
 	"certificate.in-use": {
-		"defaultMessage": "Используется"
+		"defaultMessage": "In Use"
 	},
 	"certificate.none.subtitle": {
-		"defaultMessage": "Сертификат не назначен"
+		"defaultMessage": "No certificate assigned"
 	},
 	"certificate.none.subtitle.for-http": {
-		"defaultMessage": "Этот хост не будет использовать HTTPS"
+		"defaultMessage": "This host will not use HTTPS"
 	},
 	"certificate.none.title": {
-		"defaultMessage": "Нет"
+		"defaultMessage": "None"
 	},
 	"certificate.not-in-use": {
-		"defaultMessage": "Не используется"
+		"defaultMessage": "Not Used"
 	},
 	"certificate.renew": {
-		"defaultMessage": "Продлить сертификат"
+		"defaultMessage": "Renew Certificate"
 	},
 	"certificates": {
-		"defaultMessage": "Сертификаты"
+		"defaultMessage": "Certificates"
 	},
 	"certificates.custom": {
-		"defaultMessage": "Свой сертификат"
+		"defaultMessage": "Custom Certificate"
 	},
 	"certificates.custom.warning": {
-		"defaultMessage": "Файлы ключей, защищённые паролем, не поддерживаются."
+		"defaultMessage": "Key files protected with a passphrase are not supported."
 	},
 	"certificates.dns.credentials": {
-		"defaultMessage": "Содержимое файла учётных данных"
+		"defaultMessage": "Credentials File Content"
 	},
 	"certificates.dns.credentials-note": {
-		"defaultMessage": "Этот плагин требует файл конфигурации, содержащий API-токен или другие учётные данные вашего провайдера"
+		"defaultMessage": "This plugin requires a configuration file containing an API token or other credentials for your provider"
 	},
 	"certificates.dns.credentials-warning": {
-		"defaultMessage": "Эти данные будут храниться в незашифрованном виде в базе данных и файле!"
+		"defaultMessage": "This data will be stored as plaintext in the database and in a file!"
 	},
 	"certificates.dns.propagation-seconds": {
-		"defaultMessage": "Ожидание распространения (сек.)"
+		"defaultMessage": "Propagation Seconds"
 	},
 	"certificates.dns.propagation-seconds-note": {
-		"defaultMessage": "Оставьте пустым для значения по умолчанию плагина. Секунды ожидания распространения DNS."
+		"defaultMessage": "Leave empty to use the plugins default value. Number of seconds to wait for DNS propagation."
 	},
 	"certificates.dns.provider": {
-		"defaultMessage": "DNS-провайдер"
+		"defaultMessage": "DNS Provider"
+	},
+	"certificates.dns.provider.placeholder": {
+		"defaultMessage": "Select a Provider..."
 	},
 	"certificates.dns.warning": {
-		"defaultMessage": "Этот раздел требует знаний о Certbot и его DNS-плагинах. Пожалуйста, обратитесь к документации соответствующих плагинов."
+		"defaultMessage": "This section requires some knowledge about Certbot and its DNS plugins. Please consult the respective plugins documentation."
 	},
 	"certificates.http.reachability-404": {
-		"defaultMessage": "На этом домене найден сервер, но, похоже, это не Nginx Proxy Manager. Убедитесь, что ваш домен указывает на IP-адрес, где запущен ваш экземпляр NPM."
+		"defaultMessage": "There is a server found at this domain but it does not seem to be Nginx Proxy Manager. Please make sure your domain points to the IP where your NPM instance is running."
 	},
 	"certificates.http.reachability-failed-to-check": {
-		"defaultMessage": "Не удалось проверить доступность из‑за ошибки связи с site24x7.com."
+		"defaultMessage": "Failed to check the reachability due to a communication error with site24x7.com."
 	},
 	"certificates.http.reachability-not-resolved": {
-		"defaultMessage": "На этом домене недоступен сервер. Убедитесь, что домен существует и указывает на IP-адрес, где запущен ваш экземпляр NPM, и при необходимости порт 80 проброшен на вашем роутере."
+		"defaultMessage": "There is no server available at this domain. Please make sure your domain exists and points to the IP where your NPM instance is running and if necessary port 80 is forwarded in your router."
 	},
 	"certificates.http.reachability-ok": {
-		"defaultMessage": "Сервер доступен, выпуск сертификатов возможен."
+		"defaultMessage": "Your server is reachable and creating certificates should be possible."
 	},
 	"certificates.http.reachability-other": {
-		"defaultMessage": "На этом домене найден сервер, но он вернул неожиданный статус‑код {code}. Это сервер NPM? Убедитесь, что ваш домен указывает на IP-адрес, где запущен ваш экземпляр NPM."
+		"defaultMessage": "There is a server found at this domain but it returned an unexpected status code {code}. Is it the NPM server? Please make sure your domain points to the IP where your NPM instance is running."
 	},
 	"certificates.http.reachability-wrong-data": {
-		"defaultMessage": "На этом домене найден сервер, но он вернул неожиданные данные. Это сервер NPM? Убедитесь, что ваш домен указывает на IP-адрес, где запущен ваш экземпляр NPM."
+		"defaultMessage": "There is a server found at this domain but it returned an unexpected data. Is it the NPM server? Please make sure your domain points to the IP where your NPM instance is running."
 	},
 	"certificates.http.test-results": {
-		"defaultMessage": "Результаты проверки"
+		"defaultMessage": "Test Results"
 	},
 	"certificates.http.warning": {
-		"defaultMessage": "Эти домены должны быть настроены и указывать на этот экземпляр."
+		"defaultMessage": "These domains must be already configured to point to this installation."
 	},
 	"certificates.key-type": {
-		"defaultMessage": "Тип ключа"
+		"defaultMessage": "Key Type"
 	},
 	"certificates.key-type-description": {
-		"defaultMessage": "RSA широко совместим, ECDSA быстрее и безопаснее, но может не поддерживаться старыми системами"
+		"defaultMessage": "RSA is widely compatible, ECDSA is faster and more secure but may not be supported by older systems"
 	},
 	"certificates.key-type-ecdsa": {
 		"defaultMessage": "ECDSA 256"
@@ -225,433 +240,469 @@
 		"defaultMessage": "RSA 2048"
 	},
 	"certificates.request.subtitle": {
-		"defaultMessage": "через Let's Encrypt"
+		"defaultMessage": "with Let's Encrypt"
 	},
 	"certificates.request.title": {
-		"defaultMessage": "Получить новый сертификат"
+		"defaultMessage": "Request a new Certificate"
 	},
 	"column.access": {
-		"defaultMessage": "Доступ"
+		"defaultMessage": "Access"
 	},
 	"column.authorization": {
-		"defaultMessage": "Авторизация"
+		"defaultMessage": "Authorization"
 	},
 	"column.authorizations": {
-		"defaultMessage": "Авторизации"
+		"defaultMessage": "Authorizations"
 	},
 	"column.custom-locations": {
-		"defaultMessage": "Свои маршруты"
+		"defaultMessage": "Custom Locations"
 	},
 	"column.destination": {
-		"defaultMessage": "Назначение"
+		"defaultMessage": "Destination"
 	},
 	"column.details": {
-		"defaultMessage": "Сведения"
+		"defaultMessage": "Details"
 	},
 	"column.email": {
-		"defaultMessage": "Эл. почта"
+		"defaultMessage": "Email"
 	},
 	"column.event": {
-		"defaultMessage": "Событие"
+		"defaultMessage": "Event"
 	},
 	"column.expires": {
-		"defaultMessage": "Истекает"
+		"defaultMessage": "Expires"
 	},
 	"column.http-code": {
-		"defaultMessage": "HTTP-код"
+		"defaultMessage": "HTTP Code"
 	},
 	"column.incoming-port": {
-		"defaultMessage": "Входящий порт"
+		"defaultMessage": "Incoming Port"
 	},
 	"column.name": {
-		"defaultMessage": "Имя"
+		"defaultMessage": "Name"
 	},
 	"column.protocol": {
-		"defaultMessage": "Протокол"
+		"defaultMessage": "Protocol"
 	},
 	"column.provider": {
-		"defaultMessage": "Провайдер"
+		"defaultMessage": "Provider"
 	},
 	"column.roles": {
-		"defaultMessage": "Роли"
+		"defaultMessage": "Roles"
 	},
 	"column.rules": {
-		"defaultMessage": "Правила"
+		"defaultMessage": "Rules"
 	},
 	"column.satisfy": {
-		"defaultMessage": "Условия"
+		"defaultMessage": "Satisfy"
 	},
 	"column.satisfy-all": {
-		"defaultMessage": "Все"
+		"defaultMessage": "All"
 	},
 	"column.satisfy-any": {
-		"defaultMessage": "Любое"
+		"defaultMessage": "Any"
 	},
 	"column.scheme": {
-		"defaultMessage": "Схема"
+		"defaultMessage": "Scheme"
 	},
 	"column.source": {
-		"defaultMessage": "Источник"
+		"defaultMessage": "Source"
 	},
 	"column.ssl": {
 		"defaultMessage": "SSL"
 	},
 	"column.status": {
-		"defaultMessage": "Статус"
+		"defaultMessage": "Status"
 	},
 	"created-on": {
-		"defaultMessage": "Создан: {date}"
+		"defaultMessage": "Created: {date}"
 	},
 	"dashboard": {
-		"defaultMessage": "Обзор"
+		"defaultMessage": "Dashboard"
 	},
 	"dead-host": {
-		"defaultMessage": "404-хост"
+		"defaultMessage": "404 Host"
 	},
 	"dead-hosts": {
-		"defaultMessage": "404-хосты"
+		"defaultMessage": "404 Hosts"
 	},
 	"dead-hosts.count": {
-		"defaultMessage": "{count} {count, plural, one {404-хост} few {404-хоста} many {404-хостов} other {404-хоста}}"
+		"defaultMessage": "{count} {count, plural, one {404 Host} other {404 Hosts}}"
 	},
 	"disabled": {
-		"defaultMessage": "Выключен"
+		"defaultMessage": "Disabled"
 	},
 	"domain-names": {
-		"defaultMessage": "Домены"
+		"defaultMessage": "Domain Names"
 	},
 	"domain-names.max": {
-		"defaultMessage": "Максимум {count} доменов"
+		"defaultMessage": "{count} domain names maximum"
 	},
 	"domain-names.placeholder": {
-		"defaultMessage": "Начните ввод, чтобы добавить домен..."
+		"defaultMessage": "Start typing to add domain..."
 	},
 	"domain-names.wildcards-not-permitted": {
-		"defaultMessage": "Подстановочные домены не разрешены для этого типа"
+		"defaultMessage": "Wildcards not permitted for this type"
 	},
 	"domain-names.wildcards-not-supported": {
-		"defaultMessage": "Подстановочные домены не поддерживаются этим центром сертификации"
+		"defaultMessage": "Wildcards not supported for this CA"
 	},
 	"domains.force-ssl": {
-		"defaultMessage": "Всегда SSL"
+		"defaultMessage": "Force SSL"
 	},
 	"domains.hsts-enabled": {
-		"defaultMessage": "Поддержка HSTS"
+		"defaultMessage": "HSTS Enabled"
 	},
 	"domains.hsts-subdomains": {
-		"defaultMessage": "Поддомены HSTS"
+		"defaultMessage": "HSTS Sub-domains"
 	},
 	"domains.http2-support": {
-		"defaultMessage": "Поддержка HTTP/2"
+		"defaultMessage": "HTTP/2 Support"
 	},
 	"domains.use-dns": {
-		"defaultMessage": "Проверка через DNS"
+		"defaultMessage": "Use DNS Challenge"
 	},
 	"email-address": {
-		"defaultMessage": "Адрес эл. почты"
+		"defaultMessage": "Email address"
 	},
 	"empty-search": {
-		"defaultMessage": "Ничего не найдено"
+		"defaultMessage": "No results found"
 	},
 	"empty-subtitle": {
-		"defaultMessage": "Почему бы не создать его?"
+		"defaultMessage": "Why don't you create one?"
 	},
 	"enabled": {
-		"defaultMessage": "Включён"
+		"defaultMessage": "Enabled"
 	},
 	"error.access.at-least-one": {
-		"defaultMessage": "Требуется хотя бы одна авторизация или одно правило доступа"
+		"defaultMessage": "Either one Authorization or one Access Rule is required"
 	},
 	"error.access.duplicate-usernames": {
-		"defaultMessage": "Имена пользователей для авторизации должны быть уникальными"
+		"defaultMessage": "Authorization Usernames must be unique"
 	},
 	"error.invalid-auth": {
-		"defaultMessage": "Неверный адрес эл. почты или пароль"
+		"defaultMessage": "Invalid email or password"
 	},
 	"error.invalid-domain": {
-		"defaultMessage": "Неверный домен: {domain}"
+		"defaultMessage": "Invalid domain: {domain}"
 	},
 	"error.invalid-email": {
-		"defaultMessage": "Неверный адрес эл. почты"
+		"defaultMessage": "Invalid email address"
 	},
 	"error.max-character-length": {
-		"defaultMessage": "Максимальная длина {max} {max, plural, one {символ} few {символа} many {символов} other {символа}}"
+		"defaultMessage": "Maximum length is {max} character{max, plural, one {} other {s}}"
 	},
 	"error.max-domains": {
-		"defaultMessage": "Слишком много доменов, максимум {max}"
+		"defaultMessage": "Too many domains, max is {max}"
 	},
 	"error.maximum": {
-		"defaultMessage": "Максимум {max}"
+		"defaultMessage": "Maximum is {max}"
 	},
 	"error.min-character-length": {
-		"defaultMessage": "Минимальная длина {min} {min, plural, one {символ} few {символа} many {символов} other {символа}}"
+		"defaultMessage": "Minimum length is {min} character{min, plural, one {} other {s}}"
 	},
 	"error.minimum": {
-		"defaultMessage": "Минимум {min}"
+		"defaultMessage": "Minimum is {min}"
 	},
 	"error.passwords-must-match": {
-		"defaultMessage": "Пароли должны совпадать"
+		"defaultMessage": "Passwords must match"
 	},
 	"error.required": {
-		"defaultMessage": "Обязательное поле"
+		"defaultMessage": "This is required"
 	},
 	"expires.on": {
-		"defaultMessage": "Истекает: {date}"
+		"defaultMessage": "Expires: {date}"
 	},
 	"footer.github-fork": {
-		"defaultMessage": "Сделать форк на GitHub"
+		"defaultMessage": "Fork me on Github"
 	},
 	"host.flags.block-exploits": {
-		"defaultMessage": "Блокировать известные эксплойты"
+		"defaultMessage": "Block Common Exploits"
 	},
 	"host.flags.cache-assets": {
-		"defaultMessage": "Кэшировать ресурсы"
+		"defaultMessage": "Cache Assets"
 	},
 	"host.flags.preserve-path": {
-		"defaultMessage": "Сохранять путь"
+		"defaultMessage": "Preserve Path"
 	},
 	"host.flags.protocols": {
-		"defaultMessage": "Протоколы"
+		"defaultMessage": "Protocols"
 	},
 	"host.flags.websockets-upgrade": {
-		"defaultMessage": "Поддержка WebSocket"
+		"defaultMessage": "Websockets Support"
 	},
 	"host.forward-port": {
-		"defaultMessage": "Порт перенаправления"
+		"defaultMessage": "Forward Port"
 	},
 	"host.forward-scheme": {
-		"defaultMessage": "Схема"
+		"defaultMessage": "Scheme"
 	},
 	"hosts": {
-		"defaultMessage": "Хосты"
+		"defaultMessage": "Hosts"
 	},
 	"http-only": {
-		"defaultMessage": "Только HTTP"
+		"defaultMessage": "HTTP Only"
 	},
 	"lets-encrypt": {
 		"defaultMessage": "Let's Encrypt"
 	},
 	"lets-encrypt-via-dns": {
-		"defaultMessage": "Let's Encrypt через DNS"
+		"defaultMessage": "Let's Encrypt via DNS"
 	},
 	"lets-encrypt-via-http": {
-		"defaultMessage": "Let's Encrypt через HTTP"
+		"defaultMessage": "Let's Encrypt via HTTP"
 	},
 	"loading": {
-		"defaultMessage": "Загрузка…"
+		"defaultMessage": "Loading…"
+	},
+	"login.2fa-code": {
+		"defaultMessage": "Verification Code"
+	},
+	"login.2fa-code-placeholder": {
+		"defaultMessage": "Enter code"
+	},
+	"login.2fa-description": {
+		"defaultMessage": "Enter the code from your authenticator app"
+	},
+	"login.2fa-title": {
+		"defaultMessage": "Two-Factor Authentication"
+	},
+	"login.2fa-verify": {
+		"defaultMessage": "Verify"
 	},
 	"login.title": {
-		"defaultMessage": "Авторизация"
+		"defaultMessage": "Login to your account"
 	},
 	"nginx-config.label": {
-		"defaultMessage": "Своя Nginx-конфигурация"
+		"defaultMessage": "Custom Nginx Configuration"
 	},
 	"nginx-config.placeholder": {
-		"defaultMessage": "# Введите здесь свою Nginx-конфигурацию, будьте осторожны!"
+		"defaultMessage": "# Enter your custom Nginx configuration here at your own risk!"
 	},
 	"no-permission-error": {
-		"defaultMessage": "У вас нет доступа для просмотра."
+		"defaultMessage": "You do not have access to view this."
 	},
 	"notfound.action": {
-		"defaultMessage": "Вернуться на главную"
+		"defaultMessage": "Take me home"
 	},
 	"notfound.content": {
-		"defaultMessage": "Извините, но страница, которую вы ищете, не найдена"
+		"defaultMessage": "We are sorry but the page you are looking for was not found"
 	},
 	"notfound.title": {
-		"defaultMessage": "Упс… Вы попали на страницу ошибки"
+		"defaultMessage": "Oops… You just found an error page"
 	},
 	"notification.error": {
-		"defaultMessage": "Ошибка"
+		"defaultMessage": "Error"
 	},
 	"notification.object-deleted": {
-		"defaultMessage": "{object} удален"
+		"defaultMessage": "{object} has been deleted"
 	},
 	"notification.object-disabled": {
-		"defaultMessage": "{object} выключен"
+		"defaultMessage": "{object} has been disabled"
 	},
 	"notification.object-enabled": {
-		"defaultMessage": "{object} включен"
+		"defaultMessage": "{object} has been enabled"
 	},
 	"notification.object-renewed": {
-		"defaultMessage": "{object} продлен"
+		"defaultMessage": "{object} has been renewed"
 	},
 	"notification.object-saved": {
-		"defaultMessage": "{object} сохранен"
+		"defaultMessage": "{object} has been saved"
 	},
 	"notification.success": {
-		"defaultMessage": "Успешно"
+		"defaultMessage": "Success"
 	},
 	"object.actions-title": {
 		"defaultMessage": "{object} #{id}"
 	},
 	"object.add": {
-		"defaultMessage": "Добавить {object}"
+		"defaultMessage": "Add {object}"
 	},
 	"object.delete": {
-		"defaultMessage": "Удалить {object}"
+		"defaultMessage": "Delete {object}"
 	},
 	"object.delete.content": {
-		"defaultMessage": "Вы уверены, что хотите удалить {object}?"
+		"defaultMessage": "Are you sure you want to delete this {object}?"
 	},
 	"object.edit": {
-		"defaultMessage": "Изменить {object}"
+		"defaultMessage": "Edit {object}"
 	},
 	"object.empty": {
-		"defaultMessage": "{objects} отсутствуют"
+		"defaultMessage": "There are no {objects}"
 	},
 	"object.event.created": {
-		"defaultMessage": "{object} создан"
+		"defaultMessage": "Created {object}"
 	},
 	"object.event.deleted": {
-		"defaultMessage": "{object} удален"
+		"defaultMessage": "Deleted {object}"
 	},
 	"object.event.disabled": {
-		"defaultMessage": "{object} выключен"
+		"defaultMessage": "Disabled {object}"
 	},
 	"object.event.enabled": {
-		"defaultMessage": "{object} включен"
+		"defaultMessage": "Enabled {object}"
 	},
 	"object.event.renewed": {
-		"defaultMessage": "{object} продлен"
+		"defaultMessage": "Renewed {object}"
 	},
 	"object.event.updated": {
-		"defaultMessage": "{object} обновлен"
+		"defaultMessage": "Updated {object}"
 	},
 	"offline": {
-		"defaultMessage": "Офлайн"
+		"defaultMessage": "Offline"
 	},
 	"online": {
-		"defaultMessage": "Онлайн"
+		"defaultMessage": "Online"
 	},
 	"options": {
-		"defaultMessage": "Параметры"
+		"defaultMessage": "Options"
 	},
 	"password": {
-		"defaultMessage": "Пароль"
+		"defaultMessage": "Password"
 	},
 	"password.generate": {
-		"defaultMessage": "Сгенерировать случайный пароль"
+		"defaultMessage": "Generate random password"
 	},
 	"password.hide": {
-		"defaultMessage": "Скрыть пароль"
+		"defaultMessage": "Hide Password"
 	},
 	"password.show": {
-		"defaultMessage": "Показать пароль"
+		"defaultMessage": "Show Password"
 	},
 	"permissions.hidden": {
-		"defaultMessage": "Скрыто"
+		"defaultMessage": "Hidden"
 	},
 	"permissions.manage": {
-		"defaultMessage": "Управление"
+		"defaultMessage": "Manage"
 	},
 	"permissions.view": {
-		"defaultMessage": "Только просмотр"
+		"defaultMessage": "View Only"
 	},
 	"permissions.visibility.all": {
-		"defaultMessage": "Все элементы"
+		"defaultMessage": "All Items"
 	},
 	"permissions.visibility.title": {
-		"defaultMessage": "Видимость элементов"
+		"defaultMessage": "Item Visibility"
 	},
 	"permissions.visibility.user": {
-		"defaultMessage": "Созданные элементы"
+		"defaultMessage": "Created Items Only"
 	},
 	"proxy-host": {
-		"defaultMessage": "Прокси-хост"
+		"defaultMessage": "Proxy Host"
 	},
 	"proxy-host.forward-host": {
-		"defaultMessage": "Хост / IP перенаправления"
+		"defaultMessage": "Forward Hostname / IP"
 	},
 	"proxy-hosts": {
-		"defaultMessage": "Прокси-хосты"
+		"defaultMessage": "Proxy Hosts"
 	},
 	"proxy-hosts.count": {
-		"defaultMessage": "{count} {count, plural, one {прокси-хост} few {прокси-хоста} many {прокси-хостов} other {прокси-хоста}}"
+		"defaultMessage": "{count} {count, plural, one {Proxy Host} other {Proxy Hosts}}"
 	},
 	"public": {
-		"defaultMessage": "Общедоступный"
+		"defaultMessage": "Public"
 	},
 	"redirection-host": {
-		"defaultMessage": "Редирект-хост"
+		"defaultMessage": "Redirection Host"
 	},
 	"redirection-host.forward-domain": {
-		"defaultMessage": "Домен перенаправления"
+		"defaultMessage": "Forward Domain"
 	},
 	"redirection-host.forward-http-code": {
-		"defaultMessage": "HTTP-код"
+		"defaultMessage": "HTTP Code"
 	},
 	"redirection-hosts": {
-		"defaultMessage": "Редирект-хосты"
+		"defaultMessage": "Redirection Hosts"
 	},
 	"redirection-hosts.count": {
-		"defaultMessage": "{count} {count, plural, one {редирект-хост} few {редирект-хоста} many {редирект-хостов} other {редирект-хоста}}"
+		"defaultMessage": "{count} {count, plural, one {Redirection Host} other {Redirection Hosts}}"
+	},
+	"redirection-hosts.http-code.300": {
+		"defaultMessage": "300 Multiple Choices"
+	},
+	"redirection-hosts.http-code.301": {
+		"defaultMessage": "301 Moved permanently"
+	},
+	"redirection-hosts.http-code.302": {
+		"defaultMessage": "302 Moved temporarily"
+	},
+	"redirection-hosts.http-code.303": {
+		"defaultMessage": "303 See other"
+	},
+	"redirection-hosts.http-code.307": {
+		"defaultMessage": "307 Temporary redirect"
+	},
+	"redirection-hosts.http-code.308": {
+		"defaultMessage": "308 Permanent redirect"
 	},
 	"role.admin": {
-		"defaultMessage": "Администратор"
+		"defaultMessage": "Administrator"
 	},
 	"role.standard-user": {
-		"defaultMessage": "Обычный пользователь"
+		"defaultMessage": "Standard User"
 	},
 	"save": {
-		"defaultMessage": "Сохранить"
+		"defaultMessage": "Save"
 	},
 	"setting": {
-		"defaultMessage": "Настройка"
+		"defaultMessage": "Setting"
 	},
 	"settings": {
-		"defaultMessage": "Настройки"
+		"defaultMessage": "Settings"
 	},
 	"settings.default-site": {
-		"defaultMessage": "Страница по умолчанию"
+		"defaultMessage": "Default Site"
 	},
 	"settings.default-site.404": {
-		"defaultMessage": "404-страница"
+		"defaultMessage": "404 Page"
 	},
 	"settings.default-site.444": {
-		"defaultMessage": "Нет ответа (444)"
+		"defaultMessage": "No Response (444)"
 	},
 	"settings.default-site.congratulations": {
-		"defaultMessage": "Страница поздравления"
+		"defaultMessage": "Congratulations Page"
 	},
 	"settings.default-site.description": {
-		"defaultMessage": "Что показывать, когда Nginx получает неизвестный хост"
+		"defaultMessage": "What to show when Nginx is hit with an unknown Host"
 	},
 	"settings.default-site.html": {
-		"defaultMessage": "Свой HTML"
+		"defaultMessage": "Custom HTML"
 	},
 	"settings.default-site.html.placeholder": {
-		"defaultMessage": "<!-- Введите здесь свой HTML-контент -->"
+		"defaultMessage": "<!-- Enter your custom HTML content here -->"
 	},
 	"settings.default-site.redirect": {
-		"defaultMessage": "Перенаправление"
+		"defaultMessage": "Redirect"
 	},
 	"setup.preamble": {
-		"defaultMessage": "Начните с создания учётной записи администратора."
+		"defaultMessage": "Get started by creating your admin account."
 	},
 	"setup.title": {
-		"defaultMessage": "Добро пожаловать!"
+		"defaultMessage": "Welcome!"
 	},
 	"sign-in": {
-		"defaultMessage": "Войти"
+		"defaultMessage": "Sign in"
 	},
 	"ssl-certificate": {
-		"defaultMessage": "SSL-сертификат"
+		"defaultMessage": "SSL Certificate"
 	},
 	"stream": {
-		"defaultMessage": "Поток"
+		"defaultMessage": "Stream"
 	},
 	"stream.forward-host": {
-		"defaultMessage": "Хост перенаправления"
+		"defaultMessage": "Forward Host"
+	},
+	"stream.forward-host.placeholder": {
+		"defaultMessage": "example.com or 10.0.0.1 or 2001:db8:3333:4444:5555:6666:7777:8888"
 	},
 	"stream.incoming-port": {
-		"defaultMessage": "Входящий порт"
+		"defaultMessage": "Incoming Port"
 	},
 	"streams": {
-		"defaultMessage": "Потоки"
+		"defaultMessage": "Streams"
 	},
 	"streams.count": {
-		"defaultMessage": "{count} {count, plural, one {поток} few {потока} many {потоков} other {потока}}"
+		"defaultMessage": "{count} {count, plural, one {Stream} other {Streams}}"
 	},
 	"streams.tcp": {
 		"defaultMessage": "TCP"
@@ -660,54 +711,60 @@
 		"defaultMessage": "UDP"
 	},
 	"test": {
-		"defaultMessage": "Проверить"
+		"defaultMessage": "Test"
+	},
+	"update-available": {
+		"defaultMessage": "Update Available: {latestVersion}"
 	},
 	"user": {
-		"defaultMessage": "Пользователь"
+		"defaultMessage": "User"
 	},
 	"user.change-password": {
-		"defaultMessage": "Изменить пароль"
+		"defaultMessage": "Change Password"
 	},
 	"user.confirm-password": {
-		"defaultMessage": "Повторите пароль"
+		"defaultMessage": "Confirm Password"
 	},
 	"user.current-password": {
-		"defaultMessage": "Текущий пароль"
+		"defaultMessage": "Current Password"
 	},
 	"user.edit-profile": {
-		"defaultMessage": "Изменить профиль"
+		"defaultMessage": "Edit Profile"
 	},
 	"user.full-name": {
-		"defaultMessage": "Полное имя"
+		"defaultMessage": "Full Name"
 	},
 	"user.login-as": {
-		"defaultMessage": "Войти как {name}"
+		"defaultMessage": "Sign in as {name}"
 	},
 	"user.logout": {
-		"defaultMessage": "Выйти"
+		"defaultMessage": "Logout"
 	},
 	"user.new-password": {
-		"defaultMessage": "Новый пароль"
+		"defaultMessage": "New Password"
 	},
 	"user.nickname": {
-		"defaultMessage": "Псевдоним"
+		"defaultMessage": "Nickname"
 	},
 	"user.set-password": {
-		"defaultMessage": "Задать пароль"
+		"defaultMessage": "Set Password"
 	},
 	"user.set-permissions": {
-		"defaultMessage": "Задать разрешения для {name}"
+		"defaultMessage": "Set Permissions for {name}"
 	},
 	"user.switch-dark": {
-		"defaultMessage": "Включить тёмную тему"
+		"defaultMessage": "Switch to Dark mode"
 	},
 	"user.switch-light": {
-		"defaultMessage": "Включить светлую тему"
+		"defaultMessage": "Switch to Light mode"
+	},
+	"user.two-factor": {
+		"defaultMessage": "Two-Factor Auth"
 	},
 	"username": {
-		"defaultMessage": "მომხმარებლის სახელი"
+		"defaultMessage": "Username"
 	},
 	"users": {
-		"defaultMessage": "მომხმარებლები"
+		"defaultMessage": "Users"
 	}
 }
