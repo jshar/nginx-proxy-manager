@@ -1,5 +1,5 @@
 {
-  "2fa.backup-codes-remaining": {
+    "2fa.backup-codes-remaining": {
 		"defaultMessage": "დარჩენილი სარეზერვო კოდები: {count}"
 	},
 	"2fa.backup-warning": {
