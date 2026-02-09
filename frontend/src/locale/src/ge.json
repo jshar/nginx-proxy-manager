@@ -57,7 +57,7 @@
 		"defaultMessage": "შემოწმება და ჩართვა"
 	},
 	"access-list": {
-		"defaultMessage": "Access List"
+		"defaultMessage": "დაშვების სია"
 	},
 	"access-list.access-count": {
 		"defaultMessage": "{count} {count, plural, one {Rule} other {Rules}}"
