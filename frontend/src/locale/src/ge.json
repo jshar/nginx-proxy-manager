@@ -60,103 +60,103 @@
 		"defaultMessage": "დაშვების სია"
 	},
 	"access-list.access-count": {
-		"defaultMessage": "{count} {count, plural, one {Rule} other {Rules}}"
+		"defaultMessage": "{count} {count, plural, one {წესი} other {წესები}}"
 	},
 	"access-list.auth-count": {
-		"defaultMessage": "{count} {count, plural, one {User} other {Users}}"
+		"defaultMessage": "{count} {count, plural, one {მომხმარებელი} other {მომხმარებლები}}"
 	},
 	"access-list.help-rules-last": {
-		"defaultMessage": "When at least 1 rule exists, this deny all rule will be added last"
+		"defaultMessage": "თუ არსებობს ერთი წესი მაინც, წესი 'ყველაფრის აკკრძალვა' დაემატება ბპლოს"
 	},
 	"access-list.help.rules-order": {
-		"defaultMessage": "Note that the allow and deny directives will be applied in the order they are defined."
+		"defaultMessage": "გთხოვთ გაითვალისწინოთ: ნებართვის და აკრძალვის დირექტივები გამოიყენება მათი განსაზღვრის თანმიმდევრობით."
 	},
 	"access-list.pass-auth": {
-		"defaultMessage": "Pass Auth to Upstream"
+		"defaultMessage": "ავტორიზაციის გადაცემა upstream-სერვერზე"
 	},
 	"access-list.public": {
-		"defaultMessage": "Publicly Accessible"
+		"defaultMessage": "საჯაროდ ხელმისაწვდომი"
 	},
 	"access-list.public.subtitle": {
-		"defaultMessage": "No basic auth required"
+		"defaultMessage": "ავტორიზაციის გარეშე"
 	},
 	"access-list.rule-source.placeholder": {
-		"defaultMessage": "192.168.1.100 or 192.168.1.0/24 or 2001:0db8::/32"
+		"defaultMessage": "192.168.1.100 ან 192.168.1.0/24 ან 2001:0db8::/32"
 	},
 	"access-list.satisfy-any": {
-		"defaultMessage": "Satisfy Any"
+		"defaultMessage": "ნებისმიერი დამთხვევა"
 	},
 	"access-list.subtitle": {
 		"defaultMessage": "{users} {users, plural, one {User} other {Users}}, {rules} {rules, plural, one {Rule} other {Rules}} - Created: {date}"
 	},
 	"access-lists": {
-		"defaultMessage": "Access Lists"
+		"defaultMessage": "დაშვების სიები"
 	},
 	"action.add": {
-		"defaultMessage": "Add"
+		"defaultMessage": "დამატება"
 	},
 	"action.add-location": {
-		"defaultMessage": "Add Location"
+		"defaultMessage": "მარშრუტის დამატება"
 	},
 	"action.allow": {
-		"defaultMessage": "Allow"
+		"defaultMessage": "დაშვება"
 	},
 	"action.close": {
-		"defaultMessage": "Close"
+		"defaultMessage": "დახურვა"
 	},
 	"action.delete": {
-		"defaultMessage": "Delete"
+		"defaultMessage": "წაშლა"
 	},
 	"action.deny": {
-		"defaultMessage": "Deny"
+		"defaultMessage": "აკრძალვა"
 	},
 	"action.disable": {
-		"defaultMessage": "Disable"
+		"defaultMessage": "გამორთვა"
 	},
 	"action.download": {
-		"defaultMessage": "Download"
+		"defaultMessage": "ჩამოტვირთვა"
 	},
 	"action.edit": {
-		"defaultMessage": "Edit"
+		"defaultMessage": "რედაქტირება"
 	},
 	"action.enable": {
-		"defaultMessage": "Enable"
+		"defaultMessage": "ჩართვა"
 	},
 	"action.permissions": {
-		"defaultMessage": "Permissions"
+		"defaultMessage": "უფლებები"
 	},
 	"action.renew": {
-		"defaultMessage": "Renew"
+		"defaultMessage": "განახლება"
 	},
 	"action.view-details": {
-		"defaultMessage": "View Details"
+		"defaultMessage": "დეტალების ნახვა"
 	},
 	"auditlogs": {
-		"defaultMessage": "Audit Logs"
+		"defaultMessage": "აუდიტის ლოგები"
 	},
 	"auto": {
-		"defaultMessage": "Auto"
+		"defaultMessage": "ავტომატური"
 	},
 	"cancel": {
-		"defaultMessage": "Cancel"
+		"defaultMessage": "გაუქმება"
 	},
 	"certificate": {
-		"defaultMessage": "Certificate"
+		"defaultMessage": "სერთიფიქატი"
 	},
 	"certificate.custom-certificate": {
-		"defaultMessage": "Certificate"
+		"defaultMessage": "სერთიფიქატი"
 	},
 	"certificate.custom-certificate-key": {
-		"defaultMessage": "Certificate Key"
+		"defaultMessage": "სერთიფიქატის გასაღები"
 	},
 	"certificate.custom-intermediate": {
-		"defaultMessage": "Intermediate Certificate"
+		"defaultMessage": "შუალედური სერტიფიკატი"
 	},
 	"certificate.in-use": {
-		"defaultMessage": "In Use"
+		"defaultMessage": "გამოიყენება"
 	},
 	"certificate.none.subtitle": {
-		"defaultMessage": "No certificate assigned"
+		"defaultMessage": "სერტიფიკატი არ არის მინიჭებული"
 	},
 	"certificate.none.subtitle.for-http": {
 		"defaultMessage": "This host will not use HTTPS"
